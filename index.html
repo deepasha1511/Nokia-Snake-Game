@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to the CSS file -->
+</head>
+
+<body>
+    <div class="container noselect">
+        <div class="wrapper">
+            <button id="replay">
+                <i class="fas fa-play"></i>
+                RESTART
+            </button>
+            <div id="ui">
+                <h2>SCORE</h2>
+                <span id="score">00</span>
+            </div>
+            <div id="canvas">
+            </div>
+        </div>
+    </div>
+
+    <div id="controls">
+        <button id="up">↑</button>
+        <button id="left">←</button>
+        <button id="down">↓</button>
+        <button id="right">→</button>
+    </div>    
+
+    <div class="guide">
+        <p>Use the arrow keys to move the snake.</p>
+        <p>Press "RESTART" to restart the game.</p>
+    </div>
+
+    <div id="author">
+        <h1>SNAKE</h1>
+        <span>by Deepasha</span>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
